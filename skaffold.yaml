@@ -1,0 +1,7 @@
+apiVersion: skaffold/v4beta9
+kind: Config
+metadata:
+  name: nodejs
+manifests:
+  rawYaml:
+    - k8s/*
